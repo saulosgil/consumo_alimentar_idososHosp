@@ -1,2 +1,5 @@
+# Dados do estudo
+data/
+
+# Arquivos com prompts
 prompt.txt
-data/data.xlsx
