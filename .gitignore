@@ -1,3 +1,6 @@
+# Git ignore
+.gitignore
+
 # Dados do estudo
 data/
 
