@@ -1,0 +1,15 @@
+Considere que estou realizando um estudo para avaliar a influência do consumo alimentar nos desfechos musculares e funcionais de idosos hospitalizados. Para cada paciente, coletei o consumo diário de energia (kcal) durante o período de internação.
+O banco de dados contém:
+•	meta_kcal: meta nutricional diária de energia de cada paciente, em kcal.
+•	cons_kcal_dayX: variáveis que representam o consumo diário de energia, em que X indica o dia de internação (por exemplo, cons_kcal_day1, cons_kcal_day2, cons_kcal_day3 etc.).
+Utilizando Python e a biblioteca pandas, crie duas novas colunas no DataFrame, denominadas TresGruposKcal e DoisGruposKcal, para classificar os pacientes de acordo com o percentual da meta energética atingido durante a internação.
+Para a coluna TresGruposKcal use os critérios:
+1.	ProxMeta = consumiu 70% ou mais da meta de calorias (meta_kcal) durante ao menos 50% dos dias internados (considere como dias internados as colunas 'cons_kcal_dayX' que contêm números);
+2.	MetMeta = consumiu de 50% a 69% da meta de calorias (meta_kcal) durante ao menos 50% dos dias internados (considere como dias internados as colunas 'cons_kcal_dayX' que contêm números);
+3.	AbaixoMeta = consumiu menos de 50% da meta de calorias (meta_kcal) durante ao menos 50% dos dias internados (considere como dias internados as colunas 'cons_kcal_dayX' que contêm números);
+
+Para a coluna DoisGruposKcal use os critérios:
+1.	ProxMeta = consumiu 70% ou mais da meta de calorias (meta_kcal) durante ao menos 50% dos dias internados (considere como dias internados as colunas 'cons_kcal_dayX' que contêm números);
+2.	MetMeta = consumiu menos de 70% da meta de calorias (meta_kcal) durante ao menos 50% dos dias internados (considere como dias internados as colunas 'cons_kcal_dayX' que contêm números);
+
+Ao gerar o código, comente-o passo a passo.
