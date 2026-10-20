@@ -1,5 +1,9 @@
 # Dados do estudo
-data/
+data/data.xlsx
+data/data_classificado.xlsx
 
 # Arquivos com prompts
-prompt.txt
+txtFiles/prompt.txt
+
+# Arquivos test
+classificar_consumo_kcal.py
